@@ -1,18 +1,7 @@
 # depslib dependency file v1.0
-1400051896 source:d:\server\spider-0.1.0\trunk\sources\spider\main.cpp
-	<iostream>
-	"event2/event-config.h"
-	<sys/types.h>
-	<sys/stat.h>
-	<sys/time.h>
-	<sys/socket.h>
-	<fcntl.h>
-	<stdlib.h>
-	<stdio.h>
-	<string.h>
-	<unistd.h>
-	<errno.h>
-	<event.h>
+1400065613 source:d:\server\spider-0.1.0\trunk\sources\spider\main.cpp
+	"stdafx.h"
+	"tools/fileio/ftabfile.h"
 
 1353220474 d:\server\spider-0.1.0\trunk\sources\include\event2\event-config.h
 
@@ -105,4 +94,65 @@
 	<event2/util.h>
 
 1328912234 d:\server\spider-0.1.0\trunk\sources\include\event2\tag_compat.h
+
+1328912234 d:\server\spider-0.1.0\trunk\sources\include\event2\listener.h
+	<event2/event.h>
+
+1400063720 d:\server\spider-0.1.0\trunk\sources\spider\stdafx.h
+	<stdio.h>
+	<tchar.h>
+	<iostream>
+	<string.h>
+	<errno.h>
+	<stdio.h>
+	<signal.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<event2/bufferevent.h>
+	<event2/buffer.h>
+	<event2/listener.h>
+	<event2/util.h>
+	<event2/event.h>
+
+1400060258 source:d:\server\spider-0.1.0\trunk\sources\spider\tools\fileio\finifile.cpp
+	"stdio.h"
+	<iostream>
+	"string.h"
+	"finifile.h"
+	<vector>
+	<fstream>
+	"fstring.h"
+
+1400060209 d:\server\spider-0.1.0\trunk\sources\spider\tools\fileio\finifile.h
+	<iostream>
+	<map>
+	"string.h"
+
+1318385491 d:\server\spider-0.1.0\trunk\sources\spider\tools\fileio\fstring.h
+	<iostream>
+	<string>
+	<vector>
+	<map>
+
+1400060253 source:d:\server\spider-0.1.0\trunk\sources\spider\tools\fileio\fstring.cpp
+	"fstring.h"
+	<iostream>
+	<string>
+	<vector>
+	<map>
+
+1400060253 source:d:\server\spider-0.1.0\trunk\sources\spider\tools\fileio\ftabfile.cpp
+	"ftabfile.h"
+	<string>
+	<iostream>
+	<fstream>
+	"stdlib.h"
+	"fstring.h"
+
+1400064283 d:\server\spider-0.1.0\trunk\sources\spider\tools\fileio\ftabfile.h
+	<map>
+	<vector>
+	<iostream>
+	<string>
 
