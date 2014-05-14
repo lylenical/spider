@@ -1,0 +1,108 @@
+# depslib dependency file v1.0
+1400051896 source:d:\server\spider-0.1.0\trunk\sources\spider\main.cpp
+	<iostream>
+	"event2/event-config.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/time.h>
+	<sys/socket.h>
+	<fcntl.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<errno.h>
+	<event.h>
+
+1353220474 d:\server\spider-0.1.0\trunk\sources\include\event2\event-config.h
+
+1328912234 d:\server\spider-0.1.0\trunk\sources\include\event.h
+	<event2/event-config.h>
+	<sys/types.h>
+	<sys/time.h>
+	<stdint.h>
+	<stdarg.h>
+	<evutil.h>
+	<winsock2.h>
+	<windows.h>
+	<event2/event_struct.h>
+	<event2/event.h>
+	<event2/event_compat.h>
+	<event2/buffer.h>
+	<event2/buffer_compat.h>
+	<event2/bufferevent.h>
+	<event2/bufferevent_struct.h>
+	<event2/bufferevent_compat.h>
+	<event2/tag.h>
+	<event2/tag_compat.h>
+
+1328912234 d:\server\spider-0.1.0\trunk\sources\include\evutil.h
+	<event2/util.h>
+
+1342467158 d:\server\spider-0.1.0\trunk\sources\include\event2\util.h
+	<event2/event-config.h>
+	<sys/time.h>
+	<stdint.h>
+	<inttypes.h>
+	<sys/types.h>
+	<stddef.h>
+	<BaseTsd.h>
+	<stdarg.h>
+	<netdb.h>
+	<winsock2.h>
+	<sys/socket.h>
+
+1328912234 d:\server\spider-0.1.0\trunk\sources\include\event2\event_struct.h
+	<event2/event-config.h>
+	<sys/types.h>
+	<sys/time.h>
+	<event2/util.h>
+	<event2/keyvalq_struct.h>
+
+1328912234 d:\server\spider-0.1.0\trunk\sources\include\event2\keyvalq_struct.h
+
+1333490627 d:\server\spider-0.1.0\trunk\sources\include\event2\event.h
+	<event2/event-config.h>
+	<sys/types.h>
+	<sys/time.h>
+	<stdio.h>
+	<event2/util.h>
+
+1328912234 d:\server\spider-0.1.0\trunk\sources\include\event2\event_compat.h
+	<event2/event-config.h>
+	<sys/types.h>
+	<sys/time.h>
+	<event2/util.h>
+
+1342467158 d:\server\spider-0.1.0\trunk\sources\include\event2\buffer.h
+	<event2/event-config.h>
+	<stdarg.h>
+	<sys/types.h>
+	<sys/uio.h>
+	<event2/util.h>
+
+1328912234 d:\server\spider-0.1.0\trunk\sources\include\event2\buffer_compat.h
+
+1333115738 d:\server\spider-0.1.0\trunk\sources\include\event2\bufferevent.h
+	<event2/event-config.h>
+	<sys/types.h>
+	<sys/time.h>
+	<event2/util.h>
+
+1328912234 d:\server\spider-0.1.0\trunk\sources\include\event2\bufferevent_struct.h
+	<event2/event-config.h>
+	<sys/types.h>
+	<sys/time.h>
+	<event2/util.h>
+	<event2/event_struct.h>
+
+1328912234 d:\server\spider-0.1.0\trunk\sources\include\event2\bufferevent_compat.h
+
+1328912234 d:\server\spider-0.1.0\trunk\sources\include\event2\tag.h
+	<event2/event-config.h>
+	<sys/types.h>
+	<sys/time.h>
+	<event2/util.h>
+
+1328912234 d:\server\spider-0.1.0\trunk\sources\include\event2\tag_compat.h
+

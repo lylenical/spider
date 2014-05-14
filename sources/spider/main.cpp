@@ -1,9 +1,44 @@
 #include <iostream>
 
-using namespace std;
+#include "event2/event-config.h"
 
-int main()
+#include <sys/types.h>
+#include <sys/stat.h>
+#ifdef EVENT__HAVE_SYS_TIME_H
+#include <sys/time.h>
+#endif
+#ifdef EVENT__HAVE_SYS_SOCKET_H
+#include <sys/socket.h>
+#endif
+#include <fcntl.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#ifndef _WIN32
+#include <unistd.h>
+#endif
+#include <errno.h>
+
+#include <event.h>
+
+using namespace std;
+int
+main(int argc, char **argv)
 {
-    cout << "Hello world!" << endl;
-    return 0;
+#ifdef _WIN32
+	WORD wVersionRequested;
+	WSADATA wsaData;
+
+	wVersionRequested = MAKEWORD(2, 2);
+
+	(void) WSAStartup(wVersionRequested, &wsaData);
+
+    printf("ruck");
+#endif
+
+	/* Initalize the event library */
+	//event_init();
+    printf("ruck");
+	return (0);
 }
+
