@@ -1,0 +1,82 @@
+# depslib dependency file v1.0
+1160806691 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\tolua++-1.0.93\src\lib\tolua_event.c
+	<stdio.h>
+	"tolua++.h"
+
+1209756037 d:\server\spider-0.1.0\trunk\external\scripting\lua\tolua++-1.0.93\include\tolua++.h
+	"lua.h"
+	"lauxlib.h"
+
+1174669951 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1174705315 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<unistd.h>
+	<io.h>
+	<stdio.h>
+	<stdio.h>
+	<readline/readline.h>
+	<readline/history.h>
+	<assert.h>
+	<math.h>
+	<unistd.h>
+
+1144873875 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1209756037 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\tolua++-1.0.93\src\lib\tolua_is.c
+	"tolua++.h"
+	"lauxlib.h"
+	<stdlib.h>
+	<string.h>
+
+1234580792 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\tolua++-1.0.93\src\lib\tolua_map.c
+	"tolua++.h"
+	"tolua_event.h"
+	"lauxlib.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1133389887 d:\server\spider-0.1.0\trunk\external\scripting\lua\tolua++-1.0.93\src\lib\tolua_event.h
+	"tolua++.h"
+
+1171075436 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\tolua++-1.0.93\src\lib\tolua_push.c
+	"tolua++.h"
+	"lauxlib.h"
+	<stdlib.h>
+
+1226427289 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\tolua++-1.0.93\src\lib\tolua_to.c
+	"tolua++.h"
+	<string.h>
+	<stdlib.h>
+
+1154141156 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\tolua++-1.0.93\src\bin\tolua.c
+	"tolua++.h"
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1135703520 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lualib.h
+	"lua.h"
+
+1234747040 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\tolua++-1.0.93\src\bin\toluabind.c
+	"stdlib.h"
+	"string.h"
+	"tolua++.h"
+
+1199407589 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\tolua++-1.0.93\src\bin\toluabind_default.c
+	"stdlib.h"
+	"string.h"
+	"tolua++.h"
+
