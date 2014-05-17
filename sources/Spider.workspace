@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="spider/spider.cbp" />
+		<Project filename="../external/libevent-2.0.21-stable/libevent.cbp" />
+		<Project filename="../external/scripting/lua/lua-5.1.2/liblua.cbp" />
+		<Project filename="../external/scripting/lua/tolua++-1.0.93/libtolua.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

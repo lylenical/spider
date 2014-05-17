@@ -1,0 +1,127 @@
+# depslib dependency file v1.0
+1400290916 source:d:\server\spider-0.1.0\trunk\sources\spider\main.cpp
+	"stdafx.h"
+
+1333115738 d:\server\spider-0.1.0\trunk\sources\include\event2\bufferevent.h
+	<event2/event-config.h>
+	<sys/types.h>
+	<sys/time.h>
+	<event2/util.h>
+
+1400252485 d:\server\spider-0.1.0\trunk\sources\include\event2\event-config.h
+
+1342467158 d:\server\spider-0.1.0\trunk\sources\include\event2\util.h
+	<event2/event-config.h>
+	<sys/time.h>
+	<stdint.h>
+	<inttypes.h>
+	<sys/types.h>
+	<stddef.h>
+	<BaseTsd.h>
+	<stdarg.h>
+	<netdb.h>
+	<winsock2.h>
+	<sys/socket.h>
+
+1342467158 d:\server\spider-0.1.0\trunk\sources\include\event2\buffer.h
+	<event2/event-config.h>
+	<stdarg.h>
+	<sys/types.h>
+	<sys/uio.h>
+	<event2/util.h>
+
+1328912234 d:\server\spider-0.1.0\trunk\sources\include\event2\listener.h
+	<event2/event.h>
+
+1333490627 d:\server\spider-0.1.0\trunk\sources\include\event2\event.h
+	<event2/event-config.h>
+	<sys/types.h>
+	<sys/time.h>
+	<stdio.h>
+	<event2/util.h>
+
+1400253700 source:d:\server\spider-0.1.0\trunk\sources\spider\tools\fileio\finifile.cpp
+	"stdio.h"
+	<iostream>
+	"string.h"
+	"finifile.h"
+	<vector>
+	<fstream>
+	"stdlib.h"
+	"fstring.h"
+
+1400060209 d:\server\spider-0.1.0\trunk\sources\spider\tools\fileio\finifile.h
+	<iostream>
+	<map>
+	"string.h"
+
+1318385491 d:\server\spider-0.1.0\trunk\sources\spider\tools\fileio\fstring.h
+	<iostream>
+	<string>
+	<vector>
+	<map>
+
+1400060253 source:d:\server\spider-0.1.0\trunk\sources\spider\tools\fileio\fstring.cpp
+	"fstring.h"
+	<iostream>
+	<string>
+	<vector>
+	<map>
+
+1400060253 source:d:\server\spider-0.1.0\trunk\sources\spider\tools\fileio\ftabfile.cpp
+	"ftabfile.h"
+	<string>
+	<iostream>
+	<fstream>
+	"stdlib.h"
+	"fstring.h"
+
+1400064283 d:\server\spider-0.1.0\trunk\sources\spider\tools\fileio\ftabfile.h
+	<map>
+	<vector>
+	<iostream>
+	<string>
+
+1400302510 d:\server\spider-0.1.0\trunk\sources\spider\stdafx.h
+	<stdio.h>
+	<tchar.h>
+	<iostream>
+	<string.h>
+	<errno.h>
+	<stdio.h>
+	<signal.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<event2/bufferevent.h>
+	<event2/buffer.h>
+	<event2/listener.h>
+	<event2/util.h>
+	<event2/event.h>
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+	"tolua++.h"
+
+1394676242 d:\server\spider-0.1.0\trunk\sources\include\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1394676242 d:\server\spider-0.1.0\trunk\sources\include\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<assert.h>
+
+1394676242 d:\server\spider-0.1.0\trunk\sources\include\lualib.h
+	"lua.h"
+
+1394676242 d:\server\spider-0.1.0\trunk\sources\include\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1209756037 d:\server\spider-0.1.0\trunk\sources\include\tolua++.h
+	"lua.h"
+	"lauxlib.h"
+
