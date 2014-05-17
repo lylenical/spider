@@ -1,0 +1,438 @@
+# depslib dependency file v1.0
+1149683837 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lapi.c
+	<assert.h>
+	<math.h>
+	<stdarg.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lundump.h"
+	"lvm.h"
+
+1174669951 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1174705315 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<unistd.h>
+	<io.h>
+	<stdio.h>
+	<stdio.h>
+	<readline/readline.h>
+	<readline/history.h>
+	<assert.h>
+	<math.h>
+	<unistd.h>
+
+1114457050 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lapi.h
+	"lobject.h"
+
+1137584254 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lobject.h
+	<stdarg.h>
+	"llimits.h"
+	"lua.h"
+
+1135703520 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\llimits.h
+	<limits.h>
+	<stddef.h>
+	"lua.h"
+
+1114457050 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\ldebug.h
+	"lstate.h"
+
+1139250479 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lstate.h
+	"lua.h"
+	"lobject.h"
+	"ltm.h"
+	"lzio.h"
+
+1118064625 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\ltm.h
+	"lobject.h"
+
+1116359355 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lzio.h
+	"lua.h"
+	"lmem.h"
+
+1114457050 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lmem.h
+	<stddef.h>
+	"llimits.h"
+	"lua.h"
+
+1124900149 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\ldo.h
+	"lobject.h"
+	"lstate.h"
+	"lzio.h"
+
+1114457050 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lfunc.h
+	"lobject.h"
+
+1124900149 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lgc.h
+	"lobject.h"
+
+1114457050 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lstring.h
+	"lgc.h"
+	"lobject.h"
+	"lstate.h"
+
+1136898786 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\ltable.h
+	"lobject.h"
+
+1131717793 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lundump.h
+	"lobject.h"
+	"lzio.h"
+
+1124736889 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lvm.h
+	"ldo.h"
+	"lobject.h"
+	"ltm.h"
+
+1142969469 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lauxlib.c
+	<ctype.h>
+	<errno.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+
+1144873875 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1174669567 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lbaselib.c
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1135703520 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lualib.h
+	"lua.h"
+
+1174669573 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lcode.c
+	<stdlib.h>
+	"lua.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"llex.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"ltable.h"
+
+1142969283 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lcode.h
+	"llex.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+
+1143138212 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\llex.h
+	"lobject.h"
+	"lzio.h"
+
+1142363084 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lopcodes.h
+	"llimits.h"
+
+1141928071 d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lparser.h
+	"llimits.h"
+	"lobject.h"
+	"lzio.h"
+
+1135870331 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\ldblib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1174669579 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\ldebug.c
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1149536174 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\ldo.c
+	<setjmp.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lundump.h"
+	"lvm.h"
+	"lzio.h"
+
+1140105229 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\ldump.c
+	<stddef.h>
+	"lua.h"
+	"lobject.h"
+	"lstate.h"
+	"lundump.h"
+
+1175012470 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lfunc.c
+	<stddef.h>
+	"lua.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+
+1148481246 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lgc.c
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+
+1135870331 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\linit.c
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+
+1147119256 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\liolib.c
+	<errno.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1141928071 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\llex.c
+	<ctype.h>
+	<locale.h>
+	<string.h>
+	"lua.h"
+	"ldo.h"
+	"llex.h"
+	"lobject.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"lzio.h"
+
+1125077792 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lmathlib.c
+	<stdlib.h>
+	<math.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1135604147 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lmem.c
+	<stddef.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+
+1175085412 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\loadlib.c
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<dlfcn.h>
+	<windows.h>
+	<mach-o/dyld.h>
+
+1139593432 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lobject.c
+	<ctype.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"ldo.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"lvm.h"
+
+1131479136 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lopcodes.c
+	"lopcodes.h"
+
+1158674228 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\loslib.c
+	<errno.h>
+	<locale.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1174669590 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lparser.c
+	<string.h>
+	"lua.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"llex.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+
+1148480150 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lstate.c
+	<stddef.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"llex.h"
+	"lmem.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+
+1135268396 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lstring.c
+	<string.h>
+	"lua.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+
+1174669594 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lstrlib.c
+	<ctype.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1137584942 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\ltable.c
+	<math.h>
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"ltable.h"
+
+1130089095 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\ltablib.c
+	<stddef.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1136897400 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\ltm.c
+	<string.h>
+	"lua.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+
+1140105229 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lundump.c
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstring.h"
+	"lundump.h"
+	"lzio.h"
+
+1174919558 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lvm.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1117829729 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\lzio.c
+	<string.h>
+	"lua.h"
+	"llimits.h"
+	"lmem.h"
+	"lstate.h"
+	"lzio.h"
+
+1174868258 source:d:\server\spider-0.1.0\trunk\external\scripting\lua\lua-5.1.2\src\print.c
+	<ctype.h>
+	<stdio.h>
+	"ldebug.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lundump.h"
+
