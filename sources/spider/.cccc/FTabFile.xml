@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module FTabFile-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="179" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="55" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="3" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="59.667" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="18.333" level="2" />
+<weighted_methods_per_class_unity value="21" level="0" />
+<weighted_methods_per_class_visibility value="20" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="2" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="40" />
+<lines_of_code value="12" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>Clear()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="195" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="70" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Col2Str(int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="97" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="58" />
+</extent>
+<lines_of_code value="20" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>FTabFile()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="34" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="51" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>FindColumn(const char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="88" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="57" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>FindRow(const char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="79" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="56" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>GetFloat(const char *,const char *,float)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="189" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="69" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>GetFloat(int,const char *,float)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="169" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="67" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>GetFloat(int,int,float)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="174" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="68" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>GetHeight()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="60" />
+</extent>
+<lines_of_code value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>GetInteger(const char *,const char *,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="163" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="66" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>GetInteger(int,const char *,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="143" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="64" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>GetInteger(int,int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="148" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="65" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>GetString(const char *,const char *,const char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="137" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="63" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>GetString(int,const char *,const char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="117" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="61" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>GetString(int,int,const char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="122" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="62" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>GetWidth()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="59" />
+</extent>
+<lines_of_code value="0" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Load(const char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="43" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="53" />
+</extent>
+<lines_of_code value="28" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>LoadPack(const char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="75" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="55" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Save(const char *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="71" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="54" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Str2Col(const char *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="49" />
+</extent>
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>~FTabFile()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Utils\fileio\ftabfile.cpp" line="39" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="52" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>FTabFile</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>map</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="46" />
+</extent>
+<name>vector</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="44" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="Utils\fileio\ftabfile.h" line="45" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

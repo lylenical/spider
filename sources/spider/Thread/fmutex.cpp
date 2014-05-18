@@ -21,40 +21,43 @@
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
  ****************************************************************************/
-#ifndef __STDAFX_H__
-#define __STDAFX_H__
+#include "fmutex.h"
 
-#include <stdio.h>
-#include <tchar.h>
-#include <iostream>
+using namespace spider::Thread;
 
-#include <string.h>
-#include <errno.h>
-#include <stdio.h>
-#include <signal.h>
-#ifndef WIN32
-#include <netinet/in.h>
-# ifdef _XOPEN_SOURCE_EXTENDED
-#  include <arpa/inet.h>
-# endif
-#include <sys/socket.h>
+FMutex::FMutex(){
+#ifdef WIN32
+	_mutex = new CRITICAL_SECTION;
+	InitializeCriticalSection(_mutex);
+#else
+	pthread_mutexattr_t attr;
+	pthread_mutexattr_init(&attr);
+	pthread_mutexattr_settype(&attr,PTHREAD_MUTEX_RECURSIVE_NP);
+	pthread_mutex_init(&_mutex,&attr);
 #endif
-
-#include <event2/bufferevent.h>
-#include <event2/buffer.h>
-#include <event2/listener.h>
-#include <event2/util.h>
-#include <event2/event.h>
-
-extern "C" {
-    #include "lua.h"
-    #include "lualib.h"
-    #include "lauxlib.h"
 }
 
-#include "tolua++.h"
+FMutex::~FMutex(){
+#ifdef WIN32
+	DeleteCriticalSection(_mutex);
+	delete _mutex;
+#else
+	pthread_mutex_destroy(&_mutex);
+#endif
+}
 
-#include "FSpider.h"
+void FMutex::lock(){
+#ifdef WIN32
+	EnterCriticalSection(_mutex);
+#else
+	pthread_mutex_lock(&_mutex);
+#endif
+}
 
-#endif // __STDAFX_H__
-
+void FMutex::unlock(){
+#ifdef WIN32
+	LeaveCriticalSection(_mutex);
+#else
+	pthread_mutex_unlock(&_mutex);
+#endif
+}

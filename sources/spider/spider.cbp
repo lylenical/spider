@@ -8,12 +8,14 @@
 		<Build>
 			<Target title="win32_Debug">
 				<Option output="../../spider/spider" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../../spider" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
 					<Add directory="../include" />
+					<Add directory="../spider" />
 				</Compiler>
 				<ResourceCompiler>
 					<Add directory="../../spider" />
@@ -23,11 +25,14 @@
 					<Add library="libws2_32" />
 					<Add library="libwsock32" />
 					<Add library="C:\Windows\System32\ws2_32.dll" />
+					<Add library="liblua" />
+					<Add library="libtolua" />
 					<Add directory="../lib" />
 				</Linker>
 			</Target>
 			<Target title="win32_Release">
 				<Option output="../../spider/spider" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../../spider/" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -37,6 +42,8 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
+					<Add library="liblua" />
+					<Add library="libtolua" />
 					<Add directory="../lib" />
 				</Linker>
 			</Target>
@@ -45,14 +52,44 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="FCommon.cpp" />
+		<Unit filename="FCommon.h" />
+		<Unit filename="FSpider.h" />
+		<Unit filename="Network/FConnect.cpp" />
+		<Unit filename="Network/FConnect.h" />
+		<Unit filename="Network/FNetwork.cpp" />
+		<Unit filename="Network/FNetwork.h" />
+		<Unit filename="Network/FServer.cpp" />
+		<Unit filename="Network/FServer.h" />
+		<Unit filename="Script/FLuaStack.cpp" />
+		<Unit filename="Script/FLuaStack.h" />
+		<Unit filename="Script/FScript.h" />
+		<Unit filename="Script/FScriptEngineManager.cpp" />
+		<Unit filename="Script/FScriptEngineManager.h" />
+		<Unit filename="Script/FScriptJsEngine.cpp" />
+		<Unit filename="Script/FScriptJsEngine.h" />
+		<Unit filename="Script/FScriptLuaEngine.cpp" />
+		<Unit filename="Script/FScriptLuaEngine.h" />
+		<Unit filename="Script/FScriptProtocol.h" />
+		<Unit filename="Script/FScriptPythonEngine.cpp" />
+		<Unit filename="Script/FScriptPythonEngine.h" />
+		<Unit filename="Thread/fmutex.cpp" />
+		<Unit filename="Thread/fmutex.h" />
+		<Unit filename="Thread/fthread.cpp" />
+		<Unit filename="Thread/fthread.h" />
+		<Unit filename="Utils/FUtils.h" />
+		<Unit filename="Utils/fileio/finifile.cpp" />
+		<Unit filename="Utils/fileio/finifile.h" />
+		<Unit filename="Utils/fileio/fstring.cpp" />
+		<Unit filename="Utils/fileio/fstring.h" />
+		<Unit filename="Utils/fileio/ftabfile.cpp" />
+		<Unit filename="Utils/fileio/ftabfile.h" />
+		<Unit filename="lua_support/LuaNetwork.cpp" />
+		<Unit filename="lua_support/LuaNetwork.h" />
+		<Unit filename="lua_support/LuaUtils.cpp" />
+		<Unit filename="lua_support/LuaUtils.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="stdafx.h" />
-		<Unit filename="tools/fileio/finifile.cpp" />
-		<Unit filename="tools/fileio/finifile.h" />
-		<Unit filename="tools/fileio/fstring.cpp" />
-		<Unit filename="tools/fileio/fstring.h" />
-		<Unit filename="tools/fileio/ftabfile.cpp" />
-		<Unit filename="tools/fileio/ftabfile.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

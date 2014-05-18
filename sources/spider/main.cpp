@@ -1,4 +1,31 @@
+/****************************************************************************
+ Copyright (c) 2014 www.fio-tech.com
+
+ http://www.fio-tech.com
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+ ****************************************************************************/
 #include "stdafx.h"
+#include "Script/FScript.h"
+#include "Network/FNetwork.h"
+
+using namespace spider::script;
 
 using namespace std;
 static const char MESSAGE[] = "Hello, World!\n";
@@ -11,17 +38,30 @@ static void conn_writecb(struct bufferevent *, void *);
 static void conn_eventcb(struct bufferevent *, short, void *);
 static void signal_cb(evutil_socket_t, short, void *);
 
+
 int main(int argc, char **argv)
 {
+#ifdef WIN32
+	WSADATA wsa_data;
+	WSAStartup(0x0201, &wsa_data);
+#endif
+    FScriptEngineManager::defaultManager()->executeScriptFile("script/main");
+    network_thread.registCallBack(thread_network_cb,NULL);
+    network_thread.start();
+    return 0;
+}
+int main1(int argc, char **argv)
+{
+#ifdef WIN32
+	WSADATA wsa_data;
+	WSAStartup(0x0201, &wsa_data);
+#endif
+
 	struct event_base *base;
 	struct evconnlistener *listener;
 	struct event *signal_event;
 
 	struct sockaddr_in sin;
-#ifdef WIN32
-	WSADATA wsa_data;
-	WSAStartup(0x0201, &wsa_data);
-#endif
 
 	base = event_base_new();
 	if (!base) {

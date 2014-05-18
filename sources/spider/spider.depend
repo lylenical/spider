@@ -1,6 +1,8 @@
 # depslib dependency file v1.0
-1400290916 source:d:\server\spider-0.1.0\trunk\sources\spider\main.cpp
+1400416218 source:d:\server\spider-0.1.0\trunk\sources\spider\main.cpp
 	"stdafx.h"
+	"Script/FScript.h"
+	"Network/FNetwork.h"
 
 1333115738 d:\server\spider-0.1.0\trunk\sources\include\event2\bufferevent.h
 	<event2/event-config.h>
@@ -82,7 +84,7 @@
 	<iostream>
 	<string>
 
-1400302510 d:\server\spider-0.1.0\trunk\sources\spider\stdafx.h
+1400319425 d:\server\spider-0.1.0\trunk\sources\spider\stdafx.h
 	<stdio.h>
 	<tchar.h>
 	<iostream>
@@ -102,6 +104,7 @@
 	"lualib.h"
 	"lauxlib.h"
 	"tolua++.h"
+	"FSpider.h"
 
 1394676242 d:\server\spider-0.1.0\trunk\sources\include\lua.h
 	<stdarg.h>
@@ -124,4 +127,220 @@
 1209756037 d:\server\spider-0.1.0\trunk\sources\include\tolua++.h
 	"lua.h"
 	"lauxlib.h"
+
+1400389026 source:d:\server\spider-0.1.0\trunk\sources\spider\script\fscriptenginemanager.cpp
+	<iostream>
+	"FScriptEngineManager.h"
+	"Utils/FUtils.h"
+	"FScriptLuaEngine.h"
+	"FScriptPythonEngine.h"
+	"FScriptJsEngine.h"
+	"FScriptProtocol.h"
+	<map>
+	"FCommon.h"
+
+1400312907 source:d:\server\spider-0.1.0\trunk\sources\spider\script\fscriptjsengine.cpp
+
+1400336401 source:d:\server\spider-0.1.0\trunk\sources\spider\utils\fileio\finifile.cpp
+	"stdio.h"
+	<iostream>
+	"string.h"
+	"finifile.h"
+	<vector>
+	<fstream>
+	"stdlib.h"
+	"fstring.h"
+
+1400312996 d:\server\spider-0.1.0\trunk\sources\spider\utils\fileio\finifile.h
+	<iostream>
+	<map>
+	"string.h"
+
+1400310715 d:\server\spider-0.1.0\trunk\sources\spider\utils\fileio\fstring.h
+	<iostream>
+	<string>
+	<vector>
+	<map>
+
+1400310705 source:d:\server\spider-0.1.0\trunk\sources\spider\utils\fileio\fstring.cpp
+	"fstring.h"
+	<iostream>
+	<string>
+	<vector>
+	<map>
+
+1400313049 source:d:\server\spider-0.1.0\trunk\sources\spider\utils\fileio\ftabfile.cpp
+	"ftabfile.h"
+	<string>
+	<iostream>
+	<fstream>
+	"stdlib.h"
+	"fstring.h"
+
+1400313019 d:\server\spider-0.1.0\trunk\sources\spider\utils\fileio\ftabfile.h
+	<map>
+	<vector>
+	<iostream>
+	<string>
+
+1400424880 source:d:\server\spider-0.1.0\trunk\sources\spider\script\fluastack.cpp
+	"FLuaStack.h"
+	"FCommon.h"
+	"stdarg.h"
+	"lua_support/LuaUtils.h"
+	"lua_support/LuaNetwork.h"
+
+1400420229 source:d:\server\spider-0.1.0\trunk\sources\spider\script\fscriptluaengine.cpp
+	"FScriptLuaEngine.h"
+	<iostream>
+	"FLuaStack.h"
+	"stdarg.h"
+	<string>
+
+1400312757 d:\server\spider-0.1.0\trunk\sources\spider\script\fscriptluaengine.h
+	"FScriptProtocol.h"
+	<vector>
+	"FLuaStack.h"
+
+1400317690 d:\server\spider-0.1.0\trunk\sources\spider\script\fscriptprotocol.h
+	<vector>
+
+1400384405 d:\server\spider-0.1.0\trunk\sources\spider\script\fluastack.h
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+	"tolua++.h"
+	<vector>
+
+1400312920 source:d:\server\spider-0.1.0\trunk\sources\spider\script\fscriptpythonengine.cpp
+
+1400312464 d:\server\spider-0.1.0\trunk\sources\spider\script\fscript.h
+	"FScriptEngineManager.h"
+	"FScriptLuaEngine.h"
+	"FLuaStack.h"
+	"FScriptJsEngine.h"
+	"FScriptPythonEngine.h"
+
+1400384218 d:\server\spider-0.1.0\trunk\sources\spider\script\fscriptenginemanager.h
+	<map>
+
+1400312785 d:\server\spider-0.1.0\trunk\sources\spider\script\fscriptjsengine.h
+
+1400312801 d:\server\spider-0.1.0\trunk\sources\spider\script\fscriptpythonengine.h
+
+1400320333 source:d:\server\spider-0.1.0\trunk\sources\spider\fspider.cpp
+	"FSpider.h"
+	"stdarg.h"
+	"stdio.h"
+
+1400409736 d:\server\spider-0.1.0\trunk\sources\spider\fspider.h
+	"FCommon.h"
+	"Utils/FUtils.h"
+	"Script/FScript.h"
+	"Thread/fmutex.h"
+	"Thread/fthread.h"
+	"Network/FNetwork.h"
+
+1400336830 source:d:\server\spider-0.1.0\trunk\sources\spider\fcommon.cpp
+	"FCommon.h"
+	"stdarg.h"
+	"stdio.h"
+
+1400320985 d:\server\spider-0.1.0\trunk\sources\spider\fcommon.h
+
+1400316989 d:\server\spider-0.1.0\trunk\sources\spider\utils\futils.h
+	"Utils/fileio/finifile.h"
+	"Utils/fileio/ftabfile.h"
+
+1400409689 source:d:\server\spider-0.1.0\trunk\sources\spider\thread\fmutex.cpp
+	"fmutex.h"
+
+1400409629 d:\server\spider-0.1.0\trunk\sources\spider\thread\fmutex.h
+	<windows.h>
+	<time.h>
+	<sys/types.h>
+	<unistd.h>
+	<signal.h>
+
+1400409685 source:d:\server\spider-0.1.0\trunk\sources\spider\thread\fthread.cpp
+	"fthread.h"
+	<windows.h>
+
+1400409663 d:\server\spider-0.1.0\trunk\sources\spider\thread\fthread.h
+	<iostream>
+	<pthread.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<signal.h>
+
+1400389122 source:d:\server\spider-0.1.0\trunk\sources\spider\network\fconnect.cpp
+
+1400412962 source:d:\server\spider-0.1.0\trunk\sources\spider\network\fnetwork.cpp
+	"stdafx.h"
+	"Network/FNetwork.h"
+
+1400418819 d:\server\spider-0.1.0\trunk\sources\spider\network\fnetwork.h
+	"FCommon.h"
+	"Thread/fmutex.h"
+	"Thread/fthread.h"
+	"FServer.h"
+	"FConnect.h"
+
+1400416619 source:d:\server\spider-0.1.0\trunk\sources\spider\network\fserver.cpp
+	"FServer.h"
+
+1400389122 source:d:\server\spider-0.1.0\trunk\sources\spider\network\fsession.cpp
+
+1400418921 d:\server\spider-0.1.0\trunk\sources\spider\network\fserver.h
+	"stdfix.h"
+	"FConnect.h"
+	<queue>
+
+1400418023 d:\server\spider-0.1.0\trunk\sources\spider\network\fconnect.h
+	"stdafx.h"
+
+1400424117 source:d:\server\spider-0.1.0\trunk\sources\spider\spider_support\luanetwork.cpp
+	"stdlib.h"
+	"string.h"
+	"tolua++.h"
+	"LuaNetwork.h"
+
+1400418695 d:\server\spider-0.1.0\trunk\sources\spider\spider_support\luanetwork.h
+	"tolua++.h"
+	"stdafx.h"
+	"Network/FNetwork.h"
+
+1400424117 source:d:\server\spider-0.1.0\trunk\sources\spider\spider_support\luautils.cpp
+	"stdlib.h"
+	"string.h"
+	"tolua++.h"
+	"LuaNetwork.h"
+
+1400420561 d:\server\spider-0.1.0\trunk\sources\spider\spider_support\luautils.h
+	"tolua++.h"
+	"stdafx.h"
+	"Utils/FUtils.h"
+
+1400424117 source:d:\server\spider-0.1.0\trunk\sources\spider\lua_support\luanetwork.cpp
+	"stdlib.h"
+	"string.h"
+	"tolua++.h"
+	"LuaNetwork.h"
+
+1400418695 d:\server\spider-0.1.0\trunk\sources\spider\lua_support\luanetwork.h
+	"tolua++.h"
+	"stdafx.h"
+	"Network/FNetwork.h"
+
+1400424117 source:d:\server\spider-0.1.0\trunk\sources\spider\lua_support\luautils.cpp
+	"stdlib.h"
+	"string.h"
+	"tolua++.h"
+	"LuaNetwork.h"
+
+1400420561 d:\server\spider-0.1.0\trunk\sources\spider\lua_support\luautils.h
+	"tolua++.h"
+	"stdafx.h"
+	"Utils/FUtils.h"
 
