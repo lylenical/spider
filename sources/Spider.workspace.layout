@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_workspace_layout_file>
 	<ActiveProject path="spider/spider.cbp" />
-	<PreferredTarget name="win32_tolua++" />
+	<PreferredTarget name="win32_Debug" />
 </CodeBlocks_workspace_layout_file>

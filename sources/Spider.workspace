@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_workspace_file>
-	<Workspace title="Workspace">
+	<Workspace title="Spider">
 		<Project filename="spider/spider.cbp" />
 		<Project filename="../external/libevent-2.0.21-stable/libevent.cbp" />
 		<Project filename="../external/scripting/lua/lua-5.1.2/liblua.cbp" />
